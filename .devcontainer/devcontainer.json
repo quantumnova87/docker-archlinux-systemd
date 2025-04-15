@@ -11,7 +11,6 @@
       "extensions": []
     }
   },
-  "runArgs": [ "--device=/sys/fs/cgroup" ],
-  "overrideCommand": false,
+  "runArgs": [ "--volume=/sys/fs/cgroup:/sys/fs/cgroup:ro" ],
   "--privileged": true
 }
