@@ -15,4 +15,4 @@ RUN pacman -Sy --noconfirm systemd-sysvcompat && \
   pacman -Syu --noconfirm
 
 VOLUME ["/sys/fs/cgroup"]
-CMD ["/sbin/init"]
+ENTRYPOINT ["/sbin/init"]
