@@ -11,5 +11,7 @@
       "extensions": []
     }
   },
-    "--privileged": true
+  "runArgs": [ "--device=/sys/fs/cgroup" ],
+  "overrideCommand": false,
+  "--privileged": true
 }
